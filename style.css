@@ -1,0 +1,92 @@
+@font-face {
+    font-family: gameover;
+    src: url(gameover.ttf);
+}
+
+body {
+    /*background-color: #575757;*/
+    background: url(background.png);
+}
+
+#tudo {
+    z-index: 1;
+}
+
+#pokeImg {
+    border: solid 10px #171B1E;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+#main {
+    
+    text-align: center;
+}
+#pokeButton {
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 14pt;
+    outline: none;
+}
+select {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 14pt;
+}
+
+#pokeNome {
+    font-family: sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    color: white;
+}
+
+#nomeTipo1, #nomeTipo2 {
+    font-family: sans-serif;
+    font-size: 18pt;
+    color: white;
+    margin: 10px;
+}
+
+#perdeu {
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact;
+    font-size: 38pt;
+    color: #ff1919;
+    
+    display: none;
+}
+
+#pontos {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20pt; 
+    margin-left: 10px;
+    color: white;
+}
+
+#pontuacao {
+    margin-top: 200px;
+    border: solid 10px black;
+    text-align: center;
+    font-family: "gameover";
+}
+
+#max {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+#conquista { 
+    position: absolute;
+    z-index: 2;
+    font-family: Impact;
+    font-size: 30pt;
+}
